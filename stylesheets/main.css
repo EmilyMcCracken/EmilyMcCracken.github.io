@@ -1,0 +1,173 @@
+
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+span {
+  font-weight: 900;
+  color: #663366;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.social_container {
+  max-width: 860px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about_container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.project_container {
+  max-width: 860px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+  color: #663366;
+}
+
+section.module h3 {
+/*  margin-bottom: 40px;*/
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  color: #663366;
+}
+
+section.module p {
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Roboto Slab", serif;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 30px 0;
+}
+section.module.parallax {
+  height: 500px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.other_headers {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: rgba(51, 0, 51, 0.8);
+  font-size: 100px;
+  line-height: 500px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.name {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 100px;
+  line-height: 500px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0px;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.project_img {
+  width: 600px;
+  border: 3px black solid;
+}
+
+.project_img_two {
+  width: 420px;
+  height: 200px;
+  border: 3px black solid;
+}
+
+section.module.parallax-1 {
+  background-image: url("images/purple.jpg");
+}
+section.module.parallax-2 {
+  background-image: url("images/bike.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("images/books.jpg");
+}
+
+.social{
+   width: 80%;
+   margin-top: 15px;
+   margin-left: 100px;
+   text-align: center;
+}
+.social>a>img{
+   width: 10%;
+   margin: 2%;
+}
+
+.social>h1{
+  font-family: helvetica;
+  color: #330033 ;
+  border: 5px double #330033;
+}
+
+#icon {
+  width: 100px;
+}
+
+@media (max-width: 600px) {
+
+  section.module h2 {
+    font-size: 15px;
+  }
+
+  section.module h3 {
+    font-size: 10px;
+  }
+
+  section.module p {
+    font-size: 8px;
+  }
+
+  .other_headers {
+    font-size: 50px;
+    line-height: 200px;
+  }
+
+  .name {
+    font-size: 30px;
+    line-height: 200px;
+  }
+
+  section.module.parallax {
+    height: 200px;
+  }
+
+  .project_img {
+    width: 200px;
+  }
+
+  .project_img_two {
+    width: 200px;
+    height: 100px;
+  }
