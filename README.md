@@ -1,4 +1,4 @@
 #Personal Portfolio Site
 
-<img src="mccracken.png">
+<img src="stylesheets/images/mccracken.png">
 
